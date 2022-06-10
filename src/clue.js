@@ -159,9 +159,8 @@ const weaponsArray = [
 // ITERATION 2
 
 function selectRandom(arr) {
-  //pesquisando aleatoriedade = extrair um elemento aleatório de um array - métodos Math 
   let selectElement = Math.floor(Math.random()*arr.length);
-  return arr[selectElement];
+  return (arr[selectElement]);
 }
 
 function pickMystery() {
